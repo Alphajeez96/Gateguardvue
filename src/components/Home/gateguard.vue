@@ -86,7 +86,7 @@
                             </div>
                             
                             <div class="col-12">
-                                <button class="btn learn-more-btn mb-5" onclick="location.href='guards learn.html'">
+                                <button class="btn learn-more-btn mb-5">
                                     LEARN MORE
                                 </button>
                             </div>

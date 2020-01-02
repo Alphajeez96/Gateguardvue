@@ -15,8 +15,7 @@
                                 GateGUARD is the perfect App that solves every of your security <br> worries.</pc>
                             <div class="col-12 download-links row mx-0 px-0 mt-5">
                                 <div class="col-12 col-sm-8 mt-2 col-md-5 store-link px-0">
-                                    <img src="images/playstore.png" style="cursor: pointer" alt=""
-                                        onclick="location.href='https://play.google.com/store/apps/details?id=com.hng.xgateapp'">
+                                    <img src="images/playstore.png" style="cursor: pointer" alt="">
                                 </div>
                                 <div class="col-12 col-sm-8 mt-2 col-md-5 store-link px-0">
                                     <img src="images/appstore.png" alt="">

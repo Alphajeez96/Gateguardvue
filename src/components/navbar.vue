@@ -1,7 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light our-nav col-12 border-bottom">
-    <a class="navbar-brand app-logo" href="index.html">
+    <a class="navbar-brand app-logo">
+        <router-link to="/" >
         <img src="../../public/Logo.png" alt="">
+        </router-link>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,25 +18,32 @@
                     Products
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="web-providers.html">Service Directory</a>
-                    <a class="dropdown-item" href="#">Resident App</a>
-                    <a class="dropdown-item" href="#">Guard App</a>
+                    <a class="dropdown-item" >Service Directory</a>
+                    <a class="dropdown-item" >Resident App</a>
+                    <a class="dropdown-item" >Guard App</a>
                 </div>
             </li>
+
             <li class="nav-item mx-1">
-                <a class="nav-link" href="partners.html">Partners</a>
+                <router-link to="/partners">
+                <a class="nav-link" >Partners</a>
+                </router-link>
             </li>
             <li class="nav-item mx-1">
-                <a class="nav-link" href="aboutus.html">About Us</a>
+                <router-link to="/about" >
+                <a class="nav-link">About Us</a>
+                 </router-link>
             </li>
+           
             <li class="nav-item mx-1">
-                <a class="nav-link" href="contactus.html">Contact Us</a>
+                <router-link to="/contact">
+                <a class="nav-link" href="">Contact Us</a>
+                </router-link>
             </li>
 
         </ul>
-        <button class="btn btn-success login-btn mx-2" onclick="location.href='login.html'">LOGIN</button>
-        <button class="btn btn-outline-success signup-btn mx-2"
-            onclick="location.href='https://play.google.com/store/apps/details?id=com.hng.xgateapp'">DOWNLOAD</button>
+        <button class="btn btn-success login-btn mx-2" >LOGIN</button>
+        <button class="btn btn-outline-success signup-btn mx-2">DOWNLOAD</button>
     </div>
 </nav>
 </template>
@@ -43,6 +52,9 @@
     /* Navbar CSS */
 .app-logo{
     margin-left: 7vw;
+}
+ .nav-link {
+    text-decoration: none;
 }
 .nav-utilities{
     margin-right: 7vw;

@@ -6,7 +6,7 @@
     <gateguard></gateguard>
     <customers></customers>
     <newsletter></newsletter>
-     <gfoot></gfoot>
+    
   </div>
  
 </template>

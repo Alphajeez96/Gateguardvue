@@ -1,8 +1,7 @@
 <template>
-  <div >
+  <div class="home">
     <gnav></gnav>
-    <ahero></ahero>
-    <team></team>
+    <copage></copage>
      <gfoot></gfoot>
   </div>
  
@@ -12,15 +11,14 @@
 // @ is an alias to /src
 import gnav from '@/components/navbar'
 import gfoot from '@/components/footer'
-import ahero from '@/components/About/ahero'
-import team from '@/components/About/team'
+import copage from '@/components/coming/copage'
 
 
 
 export default {
   name: 'home',
   components: {
-    gnav, gfoot, ahero, team
+    gnav, gfoot, copage
   }
 }
 </script>
